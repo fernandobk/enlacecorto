@@ -20,7 +20,6 @@ function respuesta(int $status, string $msj = null, string $detalles = null){
     $statusText[200] = 'OK';
     $statusText[201] = 'Created';
     $statusText[202] = 'Accepted';
-    $statusText[204] = 'No Content';
     $statusText[205] = 'Reset Content';
     $statusText[400] = 'Bad Request';
     $statusText[404] = 'Not Found';
